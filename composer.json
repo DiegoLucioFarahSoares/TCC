@@ -1,0 +1,29 @@
+{
+    "name": "diegoluciofarahsoares/sic",
+    "description": "Sistema Interno Corporativo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Lucio Farah Soares"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "slim/slim": "3.*",
+        "slim/twig-view": "^2.5",
+        "slim/php-view": "^2.2",
+        "monolog/monolog": "^1.17",
+        "phpmailer/phpmailer": "^6.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    }
+}
