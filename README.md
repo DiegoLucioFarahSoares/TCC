@@ -1,10 +1,10 @@
 # SIC - Sistema Interno Corporativo
 
-##Começando com o Vagrant
+## Começando com o Vagrant
 
 O Vagrant usa o [VirtualBox](https://www.virtualbox.org/) da Oracle para criar dinamicamente máquinas virtuais configuráveis, leves e portáteis.
 
-##Obtenha o VirtualBox
+## Obtenha o VirtualBox
 
 O Vagrant depende do [VirtualBox](https://www.virtualbox.org/) da Oracle para criar todo o seu ambiente virtual.
 
