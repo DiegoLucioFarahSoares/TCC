@@ -10,7 +10,7 @@ use Exception;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-require_once __DIR__ . "/../config/ConnectionPdo.php";
+include __DIR__ . "/../config/ConnectionPdo.php";
 
 class sicLoginController
 {

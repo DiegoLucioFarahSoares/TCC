@@ -1,8 +1,17 @@
 # SIC - Sistema Interno Corporativo
 
+##Começando com o Vagrant
+
+O Vagrant usa o [VirtualBox](https://www.virtualbox.org/) da Oracle para criar dinamicamente máquinas virtuais configuráveis, leves e portáteis.
+
+##Obtenha o VirtualBox
+
+O Vagrant depende do [VirtualBox](https://www.virtualbox.org/) da Oracle para criar todo o seu ambiente virtual.
+
+
 ## Começando
 
-Primeiro, execute
+Considerando que você já possui o Virtualbox instalado.
 
 ```bash
 vagrant up
@@ -33,6 +42,8 @@ Senha: !mudar123**
 [Rotas de API](https://www.slimframework.com/docs/v3/objects/router.html)
 
 O diretório `app/src/routes.php` é mapeado para `app/routes/api/index.php`. Os arquivos neste diretório são tratados como [rotas de API](https://www.slimframework.com/docs/v3/objects/router.html).
+
+Confira nossa [VirtualBox](https://www.virtualbox.org/) para obter mais detalhes.
 
 Confira nossa [documentação de implantação do Composer](https://getcomposer.org/) para obter mais detalhes.
 
